@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'post/index'
+  root 'posts#index'
 
   get 'posts/index'
   post 'posts/create'
